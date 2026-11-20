@@ -31,7 +31,7 @@ CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 cmake-build-*/
-compile-commands.json
+compile_commands.json
 *.gch
 # --- Java ---
 *.class
