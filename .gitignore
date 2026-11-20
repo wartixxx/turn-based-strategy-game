@@ -30,4 +30,18 @@ out/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-
+cmake-build-*/
+compile-commands.json
+*.gch
+# --- Java ---
+*.class
+*.jar
+*.war
+target/
+.gradle/
+.settings/
+.classpath
+.project
+bin/
+hs_err_pid*
+replay_pid*
