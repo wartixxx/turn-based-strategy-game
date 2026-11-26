@@ -10,6 +10,7 @@ private:
 
 public:
     explicit Field(int size);
+    ~Field();
 
     [[nodiscard]] int GetSize() const;
     [[nodiscard]] bool IsInside(int x, int y) const;

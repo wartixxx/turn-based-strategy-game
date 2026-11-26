@@ -2,6 +2,7 @@
 
 #include <cmath>
 #include <stdexcept>
+#include <iostream>
 
 namespace tbs
 {
@@ -11,6 +12,11 @@ Field::Field(int size)
 {
     if (size <= 0)
         throw std::invalid_argument("size must be positive");
+}
+
+Field::~Field()
+{
+    std::cout << "Field уничтожается\n"; 
 }
 
 int Field::GetSize() const
