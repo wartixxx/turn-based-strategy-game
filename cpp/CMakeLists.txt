@@ -9,6 +9,7 @@ add_executable(game
     src/main.cpp
     src/field.cpp
     src/unit.cpp
+    src/squad.cpp
 )
 
 target_include_directories(game PRIVATE include)
