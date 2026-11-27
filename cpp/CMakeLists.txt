@@ -8,6 +8,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_executable(game
     src/main.cpp
     src/field.cpp
+    src/unit.cpp
 )
 
 target_include_directories(game PRIVATE include)
